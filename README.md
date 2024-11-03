@@ -16,4 +16,4 @@ python3 main.py \
     --optimizer SGD --lr 0.15 --lr_decay 0.99 --lr_decay_step 1 --criterion CrossEntropyLoss
 ```
 For detailed information on the training parameters for federated learning, please refer to main.py. The compression rate, initial temperature, cooling rate, and number of iterations for the CGSA algorithm can be set in [src/algorithm/CGSA.py].
-Special thanks to https://github.com/vaseline555.
+
